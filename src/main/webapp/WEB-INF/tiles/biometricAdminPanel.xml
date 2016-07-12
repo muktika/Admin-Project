@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+    <definition name="@login" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Biometric Admin Panel Login" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="/WEB-INF/views/loginPage.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@home" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Biometric Admin Panel" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@reportingHome" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Biometric Admin Panel" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/reportingHome.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+
+    <definition name="@publishAssessments" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Publish Assessment" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/publishAssessments.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@publishAgency" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Publish Agency" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/publishAgency.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@viewAssessments" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="View Assessments" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/viewAssessments.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@viewAgencies" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="View Agencies" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/viewAgencies.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@resetAadharNumber" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Reset Aadhar Number" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/resetAadharNumber.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@seeRunningTests" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Running Assessments" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/seeRunningTests.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@getCandidateData" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="View Candidate Information" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/getCandidateData.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@report" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Reporting" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/report.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@candidatereport" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Reporting" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/candidatereport.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@superUserHome" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Super User Admin Panel Home" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/superUserHomePage.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@viewUsers" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Admin Panel Users" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/viewUsers.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@addAdminUser" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Admin Panel Add Users" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/addAdminUser.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+    <definition name="@editUserRole" template="/WEB-INF/views/biometricAdminPanel-template.jsp">
+        <put-attribute name="title" value="Admin Panel Add Users" />
+        <put-attribute name="htmlHead" value="/WEB-INF/views/head.jsp" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="/WEB-INF/views/admin/editUserRole.jsp" />
+        <put-attribute name="footer" value="" />
+    </definition>
+
+</tiles-definitions>
